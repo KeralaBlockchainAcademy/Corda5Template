@@ -1,6 +1,6 @@
 package net.corda.c5template.contracts
 
-import net.corda.c5template.states.LoanRequestState
+import net.corda.c5template.states.TemplateState
 import net.corda.v5.ledger.contracts.CommandData
 import net.corda.v5.ledger.contracts.Contract
 import net.corda.v5.ledger.contracts.requireSingleCommand
@@ -18,6 +18,7 @@ class TemplateContract : Contract {
     // A transaction is valid if the verify() function of the contract of all the transaction's input and output states
     // does not throw an exception.
     override fun verify(tx: LedgerTransaction) {
+        // Verification logic goes here.
 
     }
 
