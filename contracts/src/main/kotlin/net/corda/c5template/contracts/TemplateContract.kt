@@ -19,7 +19,7 @@ class TemplateContract : Contract {
     // does not throw an exception.
     override fun verify(tx: LedgerTransaction) {
         // Verification logic goes here.
-
+        
     }
 
     // Used to indicate the transaction's intent.
